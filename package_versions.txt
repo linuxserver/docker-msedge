@@ -1109,7 +1109,7 @@ media-types                                                                   10
 merge-descriptors                                                             1.0.1                                               npm                         
 mesa-va-drivers                                                               22.3.6-1+deb12u1                                    deb                         
 methods                                                                       1.1.2                                               npm                         
-microsoft-edge-stable                                                         124.0.2478.105-1                                    deb                         
+microsoft-edge-stable                                                         124.0.2478.109-1                                    deb                         
 mime                                                                          1.6.0                                               npm                         
 mime-db                                                                       1.52.0                                              npm                         
 mime-types                                                                    2.1.35                                              npm                         

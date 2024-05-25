@@ -1099,7 +1099,7 @@ merge-descriptors                                                             1.
 mesa-va-drivers                                                               22.3.6-1+deb12u1                                    deb                         
 mesa-vulkan-drivers                                                           22.3.6-1+deb12u1                                    deb                         
 methods                                                                       1.1.2                                               npm                         
-microsoft-edge-stable                                                         125.0.2535.51-1                                     deb                         
+microsoft-edge-stable                                                         125.0.2535.67-1                                     deb                         
 mime                                                                          1.6.0                                               npm                         
 mime-db                                                                       1.52.0                                              npm                         
 mime-types                                                                    2.1.35                                              npm                         

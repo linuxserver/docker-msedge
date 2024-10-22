@@ -31,7 +31,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 2.0.0                                               npm                          
 @types/cookie                                                                 0.4.1                                               npm                          
 @types/cors                                                                   2.8.17                                              npm                          
-@types/node                                                                   22.7.5                                              npm                          
+@types/node                                                                   22.7.7                                              npm                          
 abbrev                                                                        2.0.0                                               npm                          
 accepts                                                                       1.3.8                                               npm                          
 adduser                                                                       3.134                                               deb                          
@@ -1106,7 +1106,7 @@ merge-descriptors                                                             1.
 mesa-va-drivers                                                               22.3.6-1+deb12u1                                    deb                          
 mesa-vulkan-drivers                                                           22.3.6-1+deb12u1                                    deb                          
 methods                                                                       1.1.2                                               npm                          
-microsoft-edge-stable                                                         130.0.2849.46-1                                     deb                          
+microsoft-edge-stable                                                         130.0.2849.52-1                                     deb                          
 mime                                                                          1.6.0                                               npm                          
 mime-db                                                                       1.52.0                                              npm                          
 mime-types                                                                    2.1.35                                              npm                          

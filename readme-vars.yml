@@ -6,6 +6,7 @@ project_url: "https://www.microsoft.com/edge"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/edge-logo.png"
 project_blurb: "[Microsoft Edge]({{ project_url }}) is a cross-platform web browser developed by Microsoft and based on Chromium."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Web Browser"
 project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:

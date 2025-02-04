@@ -108,4 +108,5 @@ init_diagram: |
   "msedge:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "04.02.25:", desc: "Clean up Singletons if container is shut down while windows are open."}
   - {date: "25.04.24:", desc: "Initial release."}

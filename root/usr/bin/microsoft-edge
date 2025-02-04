@@ -2,6 +2,11 @@
 
 BIN=/usr/bin/microsoft-edge-real
 
+# Cleanup
+if ! pgrep msedge > /dev/null;then
+  rm -f $HOME/.config/microsoft-edge/Singleton*
+fi
+
 # Run normally on privved containers or modified un non priv
 if grep -q 'Seccomp:.0' /proc/1/status; then
   ${BIN} \

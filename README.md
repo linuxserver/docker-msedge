@@ -416,4 +416,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **04.02.25:** - Clean up Singletons if container is shut down while windows are open.
 * **25.04.24:** - Initial release.

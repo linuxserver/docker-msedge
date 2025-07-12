@@ -110,5 +110,6 @@ init_diagram: |
   "msedge:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "12.07.25:", desc: "Rebase to Selkies, HTTPS IS NOW REQUIRED."}
   - {date: "04.02.25:", desc: "Clean up Singletons if container is shut down while windows are open."}
   - {date: "25.04.24:", desc: "Initial release."}

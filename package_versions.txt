@@ -937,7 +937,7 @@ media-types                                                                   10
 mesa-libgallium                                                               25.0.7-2~bpo12+1                           deb                         
 mesa-va-drivers                                                               25.0.7-2~bpo12+1                           deb                         
 mesa-vulkan-drivers                                                           25.0.7-2~bpo12+1                           deb                         
-microsoft-edge-stable                                                         138.0.3351.121-1                           deb                         
+microsoft-edge-stable                                                         139.0.3405.86-1                            deb                         
 mount                                                                         2.38.1-5+deb12u3                           deb                         
 msgpack                                                                       1.1.1                                      python                      
 multidict                                                                     6.6.3                                      python                      

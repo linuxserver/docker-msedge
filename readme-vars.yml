@@ -16,9 +16,6 @@ development_versions: false
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
-param_usage_include_env: true
-param_env_vars:
-  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London."}
 param_usage_include_vols: true
 param_volumes:
   - {vol_path: "/config", vol_host_path: "/path/to/config", desc: "Users home directory in the container, stores local files and settings"}
@@ -32,9 +29,6 @@ custom_params:
 opt_param_usage_include_env: true
 opt_param_env_vars:
   - {env_var: "EDGE_CLI", env_value: "https://www.linuxserver.io/", desc: "Specify one or multiple Chromium CLI flags, this string will be passed to the application in full."}
-opt_security_opt_param: true
-opt_security_opt_param_vars:
-  - {run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function on older hosts as syscalls are unknown to Docker. Edge runs in no-sandbox mode without it."}
 # Selkies blurb settings
 selkies_blurb: true
 show_nvidia: true
@@ -115,6 +109,7 @@ init_diagram: |
   "msedge:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "22.09.25:", desc: "Rebase to Debian Trixie."}
   - {date: "12.07.25:", desc: "Rebase to Selkies, HTTPS IS NOW REQUIRED."}
   - {date: "04.02.25:", desc: "Clean up Singletons if container is shut down while windows are open."}
   - {date: "25.04.24:", desc: "Initial release."}

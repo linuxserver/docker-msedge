@@ -221,8 +221,6 @@ services:
   msedge:
     image: lscr.io/linuxserver/msedge:latest
     container_name: msedge
-    security_opt:
-      - seccomp:unconfined #optional
     environment:
       - PUID=1000
       - PGID=1000
@@ -242,7 +240,6 @@ services:
 ```bash
 docker run -d \
   --name=msedge \
-  --security-opt seccomp=unconfined `#optional` \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
@@ -269,7 +266,6 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e EDGE_CLI=https://www.linuxserver.io/` | Specify one or multiple Chromium CLI flags, this string will be passed to the application in full. |
 | `-v /config` | Users home directory in the container, stores local files and settings |
 | `--shm-size=` | This is required for Edge to launch and function. |
-| `--security-opt seccomp=unconfined` | For Docker Engine only, many modern gui apps need this to function on older hosts as syscalls are unknown to Docker. Edge runs in no-sandbox mode without it. |
 
 ## Environment variables from files (Docker secrets)
 
@@ -433,6 +429,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **22.09.25:** - Rebase to Debian Trixie.
 * **12.07.25:** - Rebase to Selkies, HTTPS IS NOW REQUIRED.
 * **04.02.25:** - Clean up Singletons if container is shut down while windows are open.
 * **25.04.24:** - Initial release.

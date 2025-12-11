@@ -812,7 +812,7 @@ libtwolame0                                                                   0.
 libubsan1                                                                     14.2.0-19                               deb                         
 libuchardet0                                                                  0.0.8-1+b2                              deb                         
 libudev1                                                                      257.9-1~deb13u1                         deb                         
-libunbound8                                                                   1.22.0-2                                deb                         
+libunbound8                                                                   1.22.0-2+deb13u1                        deb                         
 libunistring5                                                                 1.3-2                                   deb                         
 libunwind8                                                                    1.8.1-0.1                               deb                         
 libutempter0                                                                  1.2.1-4                                 deb                         
@@ -913,7 +913,7 @@ media-types                                                                   13
 mesa-libgallium                                                               25.0.7-2                                deb                         
 mesa-va-drivers                                                               25.0.7-2                                deb                         
 mesa-vulkan-drivers                                                           25.0.7-2                                deb                         
-microsoft-edge-stable                                                         143.0.3650.66-1                         deb                         
+microsoft-edge-stable                                                         143.0.3650.80-1                         deb                         
 more-itertools                                                                10.3.0                                  python                      
 mount                                                                         2.41-5                                  deb                         
 msgpack                                                                       1.1.2                                   python                      

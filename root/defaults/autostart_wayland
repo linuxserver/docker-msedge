@@ -1,0 +1,2 @@
+#! /bin/bash
+microsoft-edge --enable-features=UseOzonePlatform --ozone-platform=wayland ${EDGE_CLI}

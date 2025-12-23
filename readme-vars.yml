@@ -111,6 +111,7 @@ init_diagram: |
   "msedge:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "20.12.25:", desc: "Add Wayland init logic."}
   - {date: "22.09.25:", desc: "Rebase to Debian Trixie."}
   - {date: "12.07.25:", desc: "Rebase to Selkies, HTTPS IS NOW REQUIRED."}
   - {date: "04.02.25:", desc: "Clean up Singletons if container is shut down while windows are open."}

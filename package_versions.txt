@@ -1034,7 +1034,7 @@ media-types                                                                   13
 mesa-libgallium                                                               25.0.7-2                               deb                         
 mesa-va-drivers                                                               25.0.7-2                               deb                         
 mesa-vulkan-drivers                                                           25.0.7-2                               deb                         
-microsoft-edge-stable                                                         146.0.3856.59-1                        deb                         
+microsoft-edge-stable                                                         146.0.3856.62-1                        deb                         
 more-itertools                                                                10.8.0                                 python                      
 mount                                                                         2.41-5                                 deb                         
 msgpack                                                                       1.1.2                                  python                      

@@ -10,7 +10,9 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thelamer"
 
 # title
-ENV TITLE=Edge
+ENV TITLE=Edge \
+    PIXELFLUX_WAYLAND=true \
+    NO_DECOR=true
 
 RUN \
   echo "**** add icon ****" && \

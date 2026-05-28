@@ -703,7 +703,7 @@ libfuse3-4                                                                    3.
 libgbm1                                                                       25.0.7-2                               deb                         
 libgcc-14-dev                                                                 14.2.0-19                              deb                         
 libgcc-s1                                                                     14.2.0-19                              deb                         
-libgcrypt20                                                                   1.11.0-7                               deb                         
+libgcrypt20                                                                   1.11.0-7+deb13u1                       deb                         
 libgdbm-compat4t64                                                            1.24-2                                 deb                         
 libgdbm6t64                                                                   1.24-2                                 deb                         
 libgdk-pixbuf-2.0-0                                                           2.42.12+dfsg-4+deb13u1                 deb                         
@@ -1015,7 +1015,7 @@ media-types                                                                   13
 mesa-libgallium                                                               25.0.7-2                               deb                         
 mesa-va-drivers                                                               25.0.7-2                               deb                         
 mesa-vulkan-drivers                                                           25.0.7-2                               deb                         
-microsoft-edge-stable                                                         148.0.3967.83-1                        deb                         
+microsoft-edge-stable                                                         148.0.3967.96-1                        deb                         
 more-itertools                                                                10.8.0                                 python                      
 mount                                                                         2.41-5                                 deb                         
 msgpack                                                                       1.1.2                                  python                      

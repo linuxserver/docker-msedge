@@ -1004,7 +1004,7 @@ media-types                                                                   13
 mesa-libgallium                                                               25.0.7-2+deb13u1                       deb                         
 mesa-va-drivers                                                               25.0.7-2+deb13u1                       deb                         
 mesa-vulkan-drivers                                                           25.0.7-2+deb13u1                       deb                         
-microsoft-edge-stable                                                         150.0.4078.83-1                        deb                         
+microsoft-edge-stable                                                         150.0.4078.96-1                        deb                         
 more-itertools                                                                10.8.0                                 python                      
 mount                                                                         2.41-5                                 deb                         
 msgpack                                                                       1.2.1                                  python                      
@@ -1097,7 +1097,7 @@ util-linux                                                                    2.
 vainfo                                                                        2.22.0+ds1-2                           deb                         
 vulkan-tools                                                                  1.4.304.0+dfsg1-1                      deb                         
 watchdog                                                                      6.0.0                                  python                      
-websockets                                                                    16.1                                   python                      
+websockets                                                                    16.1.1                                 python                      
 wget                                                                          1.25.0-2                               deb                         
 wheel                                                                         0.46.3                                 python                      
 wl-clipboard                                                                  2.2.1-2                                deb                         

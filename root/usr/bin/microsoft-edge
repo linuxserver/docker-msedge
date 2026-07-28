@@ -7,8 +7,22 @@ if ! pgrep msedge > /dev/null;then
   rm -f $HOME/.config/microsoft-edge/Singleton*
 fi
 
+# Wayland check
+if ls -l /dev/dri/* > /dev/null 2>&1; then
+  if pgrep labwc > /dev/null 2>&1; then
+    WAYLAND="--ozone-platform=wayland"
+  fi
+fi
+
+# Pelorus accessibility
+if [ "${PELORUS,,}" == "true" ]; then
+  ACCESSIBILITY="--force-renderer-accessibility"
+fi
+
 ${BIN} \
   --password-store=basic \
   --no-sandbox \
   --test-type \
+  ${WAYLAND} \
+  ${ACCESSIBILITY} \
   "$@" > /dev/null 2>&1

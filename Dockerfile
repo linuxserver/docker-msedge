@@ -22,7 +22,7 @@ RUN \
   apt-get update && \
   echo "**** install edge ****" && \
   if [ -z ${EDGE_VERSION+x} ]; then \
-    EDGE_VERSION=$(curl -sL https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/ | awk -F'(<a href="microsoft-edge-stable_|_amd64.deb")' '/href=/ {print $2}' | sort --version-sort | tail -1); \
+    EDGE_VERSION=$(curl -sL https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/ | awk -F'(<a href="microsoft-edge-stable_|_amd64.deb")' '/href=/ {print $2}' | sort --version-sort | tail -1 | sed 's|.*stable_||' | sed 's|_amd64.*||'); \
   fi && \
   curl -o \
     /tmp/edge.deb -L \

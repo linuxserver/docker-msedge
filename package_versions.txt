@@ -1007,7 +1007,7 @@ media-types                                                                   13
 mesa-libgallium                                                               25.0.7-2+deb13u1                        deb                         
 mesa-va-drivers                                                               25.0.7-2+deb13u1                        deb                         
 mesa-vulkan-drivers                                                           25.0.7-2+deb13u1                        deb                         
-microsoft-edge-stable                                                         152.0.4191.62-1                         deb                         
+microsoft-edge-stable                                                         152.0.4191.66-1                         deb                         
 more-itertools                                                                10.8.0                                  python                      
 mount                                                                         2.41.5-0+deb13u1                        deb                         
 msgpack                                                                       1.2.2                                   python                      

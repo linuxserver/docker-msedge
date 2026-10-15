@@ -532,7 +532,7 @@ h11                                                                           0.
 hicolor-icon-theme                                                            0.18-2                                 deb                         
 hostname                                                                      3.25                                   deb                         
 httpcore                                                                      1.0.9                                  python                      
-httptools                                                                     0.8.0                                  python                      
+httptools                                                                     0.9.0                                  python                      
 httpx                                                                         0.28.1                                 python                      
 i965-va-driver-shaders                                                        2.4.1-2                                deb                         
 idna                                                                          3.20                                   python                      
@@ -745,7 +745,7 @@ liblockfile1                                                                  1.
 liblsan0                                                                      14.2.0-19                              deb                         
 libltdl7                                                                      2.5.4-4                                deb                         
 liblz4-1                                                                      1.10.0-4                               deb                         
-liblzma5                                                                      5.8.1-1+deb13u1                        deb                         
+liblzma5                                                                      5.8.1-1+deb13u2                        deb                         
 libmagic-mgc                                                                  1:5.46-5                               deb                         
 libmagic1t64                                                                  1:5.46-5                               deb                         
 libmd0                                                                        1.1.0-2+b1                             deb                         
@@ -977,7 +977,7 @@ media-types                                                                   13
 mesa-libgallium                                                               25.0.7-2+deb13u1                       deb                         
 mesa-va-drivers                                                               25.0.7-2+deb13u1                       deb                         
 mesa-vulkan-drivers                                                           25.0.7-2+deb13u1                       deb                         
-microsoft-edge-stable                                                         155.0.4283.45-1                        deb                         
+microsoft-edge-stable                                                         155.0.4283.60-1                        deb                         
 more-itertools                                                                10.8.0                                 python                      
 mount                                                                         2.41.5-0+deb13u1                       deb                         
 msgpack                                                                       1.2.3                                  python                      
